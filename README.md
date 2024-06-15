@@ -23,15 +23,45 @@ sudo apt install git curl unzip tar make sudo vim wget -y
 ```
 
 ```bash
-sudo apt install git curl unzip tar make sudo vim wget -y
+git clone <Your-repository>
 ```
 
 ```bash
-git clone "Your-repository"
+cd <folder name>
+
 ```
 
 ```bash
-sudo apt install python3-pip
+touch .env
+```
+
+```bash
+ls -al
+```
+
+```bash
+vim .env
+```
+
+```bash
+ENTER THE CREDENTIALS such as token IDs, access keys, etc
+```
+
+
+```bash
+cat .env
+```
+
+```bash
+sudo apt install python3-venv
+```
+
+```bash
+python3 -m venv .venv
+```
+
+```bash
+source .venv/bin/activate
 ```
 
 ```bash
